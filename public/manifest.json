@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "cursor-anywhere",
+  "version": "1.0.0",
+  "description": "use party cursor on any website...",
+  "icons": {
+    "48": "images/icon.png",
+    "128": "images/icon.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["scripting"],
+  "host_permissions": ["https://*/*", "http://*/*"]
+}
